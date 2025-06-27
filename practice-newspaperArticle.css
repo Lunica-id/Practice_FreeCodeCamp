@@ -1,0 +1,59 @@
+html {
+    font-size: 24px;
+    background-color: #F2FBF7;
+}
+
+.newspaper {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFFFFF;
+    padding: 1.7rem 0 1.5rem 0;
+    box-shadow: 0 0 5px #b1b8b5;
+}
+
+.name {
+    font-size: 2rem;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    margin: 3px;
+}
+
+.name, .author {
+    text-transform: uppercase;
+}
+
+.date {
+    text-align: center;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.headline, .sub-headline, .author, .text {
+    margin: 0.6rem 20px;
+}
+
+.headline {
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.sub-headline {
+    font-weight: 100;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.text {
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+.text::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
