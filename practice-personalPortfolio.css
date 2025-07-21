@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-
 :root {
     --colour-main: #333639;
     --colour-sub: #3157be;
@@ -79,9 +78,9 @@ body {
 #welcome-section .subtitle {
     text-align: center;
     margin-top: -10px;
-    padding: -5px;
+    padding: 0;
     font-size: 30px;
-    font-weight: 10;
+    font-weight: 100;
     color: var(--colour-sub)
 }
 
@@ -119,7 +118,7 @@ h2 {
     text-decoration: none;
 }
 
-.each-project-tile {
+.project-caption {
     display: block;
     font-size: 20px;
     width: 100%;
@@ -137,6 +136,7 @@ h2 {
 .cursor {
     margin: 10px;
     color: transparent;
+    transition: linear 0.2s;
 }
 
 .project-tile:hover .cursor {
@@ -144,7 +144,7 @@ h2 {
     transition: linear 0.2s;
 }
 
-#leading-all-project {
+#view-all-projects {
     background-color: var(--colour-list);
     transition: linear 0.2s;
     font-size: 20px;
@@ -161,12 +161,12 @@ h2 {
     transition: 0.3s ease;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 }
 
-#leading-all-project:hover .arrow {
+#view-all-projects:hover .arrow {
     transform: translateX(5px);
 }
 
 
-#leading-all-project:hover {
+#view-all-projects:hover {
     background-color: var(--colour-accent);
     transition: linear 0.2s;
 }
@@ -200,7 +200,7 @@ h2 {
     transition: 0.2s ease;
 }
 
-#profile-link {
+.profile-link {
     text-decoration: none;
     color: var(--colour-letter);
 }
@@ -216,14 +216,14 @@ footer {
     grid-template-columns: 2fr 1fr;
     font-size: 18px;
     margin: 25px 0;
-    font-weight: 280;
+    font-weight: 200;
 }
 
-.supplement-information {
+.supplementary-information {
     margin: auto 15px;
 }
 
-.company-name a {
+.site-credit a {
     text-decoration: none;
     color: var(--colour-letter);
 }
