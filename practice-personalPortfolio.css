@@ -19,7 +19,7 @@ html {
 
 body {
     background-color: var(--colour-main);
-    color: white;
+    color: var(--colour-letter);
     font-family: 'Space Grotesk', sans-serif;
 }
 
