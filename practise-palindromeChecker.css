@@ -1,0 +1,78 @@
+:root {
+    --text-colour: white;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A0A23;
+}
+
+#logo {
+    display: block;
+    width: 250px;
+    margin: 50px auto 20px auto;
+}
+
+h1 {
+    color: var(--text-colour);
+    text-align: center;
+    font-size: 40px;
+}
+
+.form {
+    display: block;
+    background-color: white;
+    padding: 20px 10px;
+    width: 350px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #012CA6;
+}
+
+.order-sentence {
+    text-align: center;
+}
+
+#text-input {
+    margin: 30px 10px 0 10px;
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #5A01A7;
+    text-align: center;
+    transition: transform 0.1s ease;
+}
+
+#check-btn {
+    background-color: #5A01A7;
+    width: 80px;
+    height: 30px;
+    color: var(--text-colour);
+    border: none;
+    border-radius: 30px;
+}
+
+#check-btn:hover {
+    background-color: #4f0094;
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+}
+
+#check-btn:active {
+    background-color: #2c0053;
+}
+
+.explain {
+    color: var(--text-colour);
+    background-color: #00471B;
+    width: 350px;
+    padding: 20px 10px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-size: 18px;
+}
